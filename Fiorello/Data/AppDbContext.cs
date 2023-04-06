@@ -72,8 +72,8 @@ namespace Fiorello.Data
 
             modelBuilder.Entity<BlogPost>().HasData(
                 new BlogPost { Id = 1, Image = "blog-feature-img-1.jpg", Date = new DateTime(2019, 12, 29), Title = "Flower Power", Description = "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per", SoftDelete = false, BlogId = 1 },
-                new BlogPost { Id = 2, Image = "blog-feature-img-2.jpg", Date = new DateTime(2019, 10, 15), Title = "Local Florists", Description = "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per", SoftDelete = false, BlogId = 1 },
-                new BlogPost { Id = 3, Image = "blog-feature-img-3.jpg", Date = new DateTime(2019, 08, 10), Title = "Flower Beauty", Description = "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per", SoftDelete = false, BlogId = 1 }
+                new BlogPost { Id = 2, Image = "blog-feature-img-3.jpg", Date = new DateTime(2019, 10, 15), Title = "Local Florists", Description = "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per", SoftDelete = false, BlogId = 1 },
+                new BlogPost { Id = 3, Image = "blog-feature-img-4.jpg", Date = new DateTime(2019, 08, 10), Title = "Flower Beauty", Description = "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per", SoftDelete = false, BlogId = 1 }
             );
 
             modelBuilder.Entity<Quote>().HasData(
